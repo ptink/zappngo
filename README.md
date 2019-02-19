@@ -15,8 +15,9 @@ You will need an AWS account and your [AWS credentials file](https://aws.amazon.
 Install
 =======
 1. Clone this repo
-2. `pip install django zappa`
-3. Run `zappa deploy dev`
+2. Activate a virtualenv for the project
+3. `pip install django zappa`
+4. Run `zappa deploy dev`
 
 You may wish to change `aws_region` and `profile_name` in `zappa_settings.json` from their defaults of `eu-west-2` / `default`
 
