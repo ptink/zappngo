@@ -8,6 +8,10 @@ Dependencies
 * django
 * zappa
 
+Prerequisites
+=============
+You will need an AWS account and your [AWS credentials file](https://aws.amazon.com/blogs/security/a-new-and-standardized-way-to-manage-credentials-in-the-aws-sdks/) must be properly installed
+
 Install
 =======
 1. Clone this repo
